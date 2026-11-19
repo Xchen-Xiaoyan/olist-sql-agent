@@ -6,6 +6,8 @@
 - 画图，并给出结论；
 - 问题不清楚时反问，数据里没有的直接说明。
 
+**在线试用：https://olist-sql-agent.streamlit.app** （示例问题点一下即出结果；如果应用处于休眠状态，第一次打开需要等几十秒唤醒）
+
 数据是巴西电商 Olist 的公开数据集，约 9.8 万笔有效订单。指标口径与我的 [Power BI 经营看板](https://github.com/Xchen-Xiaoyan/olist-bi-dashboard) 一致。
 
 ![首页：提问框在标题下方，下面是 4 个示例问题](docs/welcome.jpg)
