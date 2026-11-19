@@ -8,7 +8,9 @@
 
 数据是巴西电商 Olist 的公开数据集，约 9.8 万笔有效订单。指标口径与我的 [Power BI 经营看板](https://github.com/Xchen-Xiaoyan/olist-bi-dashboard) 一致。
 
-![demo](docs/demo.jpg)
+![首页：提问框在标题下方，下面是 4 个示例问题](docs/welcome.jpg)
+
+![回答：先给结论，再给图表、数据表和口径说明](docs/demo.jpg)
 
 ## 能做什么
 
@@ -23,7 +25,7 @@
 | **可切换模型** | Gemini 免费额度用于在线 demo，Ollama 本地模型用于离线评测，全程 0 花费 |
 | **过程透明** | 页面展示每一步的 SQL、报错和修正，可下载结果 CSV；支持多轮追问，例如"那 2017 年呢？" |
 
-![steps](docs/steps.jpg)
+![默认折叠的「查看 SQL 与分析过程」：每次查询的 SQL、返回行数、模型调用次数和用时](docs/steps.jpg)
 
 ## 评测：Agent 什么时候值得用
 

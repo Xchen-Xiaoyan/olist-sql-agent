@@ -63,7 +63,9 @@ querying the database with the run_sql tool.
    (e.g. LIMIT 5 for a top 5). Round nothing in SQL except where asked.
 7. For a trend or a comparison across several groups, call make_chart after that query.
 8. Then reply with the final answer in the same language as the question: 1-4 sentences with the key numbers,
-   rates as percentages, plus any assumption you made. Do not include SQL in the reply."""
+   rates as percentages, plus any assumption you made. Do not include SQL in the reply.
+   Copy numbers from the query result; do not convert units yourself. Write money as R$ with thousands
+   separators (R$ 1,152,785), never in 万/亿 or millions, because hand conversion is where numbers go wrong."""
 
 BASELINE_SYSTEM = f"""You translate business questions about the Olist e-commerce database into DuckDB SQL.
 

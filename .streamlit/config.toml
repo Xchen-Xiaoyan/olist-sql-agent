@@ -1,6 +1,27 @@
 [theme]
 base = "light"
 primaryColor = "#2563eb"
+backgroundColor = "#fcfcfd"
+secondaryBackgroundColor = "#f3f4f6"
+textColor = "#1f2937"
+linkColor = "#2563eb"
+linkUnderline = false
+borderColor = "#e5e7eb"
+font = "sans-serif"
+baseFontSize = 15
+headingFontSizes = ["2rem", "1.35rem", "1.1rem", "1rem", "0.95rem", "0.9rem"]
+headingFontWeights = [650, 600, 600, 600, 600, 600]
+baseRadius = "0.5rem"
+buttonRadius = "0.5rem"
+codeFontSize = "0.8rem"
+
+[theme.sidebar]
+backgroundColor = "#f5f6f8"
+secondaryBackgroundColor = "#eceef2"
+borderColor = "#e5e7eb"
 
 [server]
 fileWatcherType = "none"
+
+[client]
+toolbarMode = "minimal"
